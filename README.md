@@ -1,5 +1,5 @@
 # Salesforce DX Project: Bug Repro Steps
-## sfdx force:data:bulk:upsert fails for UTF-8 BOM encoding .csv
+## [sfdx force:data:bulk:upsert fails for UTF-8 BOM encoding .csv](https://github.com/forcedotcom/cli/issues/720)
 
 The file Repro.bat contains all of these steps except the final force:data:bulk:status call which requires Ids,
 however force:org:create drops you back to the command prompt so it's essentially a manual test script, like below:

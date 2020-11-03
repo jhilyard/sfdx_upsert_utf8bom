@@ -56,6 +56,8 @@ apexProcessingTime:      0
 Getting Status... done
 ```
 
-NOTE: I have also seen the command not exit prematurely, but instead display the stateMessage above to the console, but without the helpful question mark character --- you see InvalidBatch : Field name not found : Name
+NOTE: I have also seen the command not exit prematurely, but instead display the stateMessage above to the console.
+
+When I copied the console output to VS Code, you can see a diamond question mark character indicating a non-printable character in front of the not found field name Name -- but this character (the file encoding byte order mark) is not visible in the console or in rendered mark down.
 
 I was pointed in the right direction by: https://trailblazers.salesforce.com/answers?id=9063A000000Dx7yQAC
